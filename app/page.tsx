@@ -31,7 +31,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="flex items-center justify-center p-6 lg:p-24 bg-gradient-to-br from-yellow-400 to-yellow-500 flex-1">
+          <div className="flex items-center justify-center p-6 lg:p-24 bg-white flex-1">
             <Image
               src="/images/mockup.png"
               alt="Mobile UI"
