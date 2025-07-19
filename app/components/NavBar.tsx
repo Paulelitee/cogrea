@@ -35,7 +35,7 @@ export default function NavBar() {
                                 </a>
                             </li>
                         </ul>
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-xl font-medium transition-colors duration-200">
+                        <button className="bg-blue-900 hover:bg-blue-600 text-white px-6 py-2 rounded-xl font-medium transition-colors duration-200">
                             Join Waitlist
                         </button>
                     </div>

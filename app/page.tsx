@@ -20,7 +20,7 @@ export default function Home() {
                 Tailored career guidance, adaptive tools, and personalized growth plans designed to help people thrive in a rapidly evolving world.
               </p>
             </div>
-              <button className="bg-blue-500 w-48 hover:bg-blue-600 text-white px-6 py-3 rounded-xl mt-2 sm:mt-0 sm:ml-2 transition-colors">
+              <button className="bg-blue-900 w-48 hover:bg-blue-600 text-white px-6 py-3 rounded-xl mt-2 sm:mt-0 sm:ml-2 transition-colors">
                 Join Waitlist
               </button>
           </div>
