@@ -26,6 +26,11 @@ export default function NavBar() {
                             </li>
                             <li>
                                 <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">
+                                    Investors
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">
                                     About
                                 </a>
                             </li>
@@ -70,6 +75,15 @@ export default function NavBar() {
                                         onClick={() => setIsMenuOpen(false)}
                                     >
                                         Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        href="#" 
+                                        className="block text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
+                                        onClick={() => setIsMenuOpen(false)}
+                                    >
+                                        investors
                                     </a>
                                 </li>
                                 <li>

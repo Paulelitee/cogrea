@@ -100,7 +100,7 @@ export default function Home() {
         </section>
 
         {/* Call To Action */}
-        <section className="py-16 lg:py-24 bg-blue-600 text-white text-center">
+        <section className="py-16 lg:py-24 bg-blue-900 text-white text-center">
           <div className="container mx-auto px-6 lg:px-20">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
               Ready to Redefine Your Growth?
@@ -109,11 +109,6 @@ export default function Home() {
               Join thousands already navigating their careers with Cogrea's intelligent AI assistant and personalized learning experiences.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                className="w-full px-6 py-3 rounded-xl text-black outline-none"
-              />
               <button className="w-full sm:w-auto bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 rounded-xl font-medium transition-colors">
                 Get Started
               </button>
