@@ -11,25 +11,18 @@ export default function Home() {
           <div className="p-6 lg:p-20 py-16 lg:py-32 flex-1 flex flex-col justify-center gap-8">
             <div className="flex flex-col gap-4">
               <p className="text-blue-600 font-medium text-sm lg:text-base">
-                Career powered by intelligence and AI
+                Career powered by intelligence and Humans and AI
               </p>
               <h1 className="text-2xl lg:text-4xl xl:text-5xl font-semibold leading-tight">
-                Intelligent Career Navigation System for Individuals and Organizations
+                Career Navigation System for Individuals and Organizations
               </h1>
               <p className="text-gray-600 text-md">
                 Tailored career guidance, adaptive tools, and personalized growth plans designed to help people thrive in a rapidly evolving world.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row bg-white rounded-2xl p-1 shadow-lg w-full max-w-md">
-              <input
-                type="text"
-                placeholder="Enter your email here"
-                className="p-3 flex-1 rounded-xl sm:rounded-none border-none outline-none"
-              />
-              <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-xl mt-2 sm:mt-0 sm:ml-2 transition-colors">
+              <button className="bg-blue-500 w-48 hover:bg-blue-600 text-white px-6 py-3 rounded-xl mt-2 sm:mt-0 sm:ml-2 transition-colors">
                 Join Waitlist
               </button>
-            </div>
           </div>
           <div className="flex items-center justify-center p-6 lg:p-24 bg-white flex-1">
             <Image
@@ -89,7 +82,7 @@ export default function Home() {
                   <h4 className="text-xl font-semibold mb-2">{item}</h4>
                   <p className="text-gray-600">
                     {item === "Personalized AI Guidance"
-                      ? "Get career advice unique to you."
+                      ? "Get career direction  and support unique to you"
                       : item === "Multilingual Career Platform"
                       ? "Grow in your native language."
                       : item === "Skill Gap Analysis & Tracking"
