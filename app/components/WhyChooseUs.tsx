@@ -60,9 +60,7 @@ export default function CogreaFeaturesSection() {
           <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent mb-4">
             Why Choose Cogrea?
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Unlock your potential with AI-powered career intelligence
-          </p>
+
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
