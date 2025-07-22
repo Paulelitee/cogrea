@@ -1,19 +1,17 @@
 'use client';
 
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <nav className="w-full bg-white shadow-sm sticky top-0 z-50">
+        <nav className="w-full bg-white shadow-xm sticky top-0 z-50">
             <div className="container mx-auto px-6 lg:px-20">
                 <div className="flex justify-between items-center h-16 lg:h-20">
-                    {/* Logo */}
+                    <Image src = '/images/logo light.png' alt = "Cogrea Logo" width = {110} height = {50}  />
                     <div className="flex-shrink-0">
-                        <h1 className="text-2xl lg:text-3xl font-bold text-gray-900">
-                            Cogrea
-                        </h1>
                     </div>
 
                     {/* Desktop Navigation */}

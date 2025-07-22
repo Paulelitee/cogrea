@@ -30,20 +30,23 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: #F7F7F8;
 } 
 
 
 .hero-section-left {
-  width: 200%;
+  width: 100%;
 }
 
 .hero-section-right {
   background-color: white;
   padding: 2rem;
-  width: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-cta-wrapper {
