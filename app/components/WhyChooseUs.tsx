@@ -1,4 +1,4 @@
-import { Brain, Globe, Target, Bot, Users, TrendingUp } from "lucide-react";
+import { Brain, Languages, Target, Bot, Users, TrendingUp } from "lucide-react";
 
 export default function CogreaFeaturesSection() {
       const features = [
@@ -12,7 +12,7 @@ export default function CogreaFeaturesSection() {
     {
       title: "Multilingual Career Platform",
       description: "Grow in your native language.",
-      icon: Globe,
+      icon: Languages,
       bgColor: "bg-blue-50",
       delay: "100ms"
     },
@@ -78,15 +78,8 @@ export default function CogreaFeaturesSection() {
                   opacity: 0
                 }}
               >
-                {/* Icon container with hsl blue to orange animation */}
-                <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-all duration-300 shadow-lg" 
-                     style={{
-                       backgroundColor: 'hsl(215, 70%, 50%)',
-                       transition: 'background-color 0.3s ease'
-                     }}
-                     onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'hsl(25, 90%, 55%)'}
-                     onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'hsl(215, 70%, 50%)'}
-                >
+                {/* Icon container with blue to orange animation */}
+                <div className="icon-container w-16 h-16 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-all duration-300 shadow-lg">
                   <IconComponent className="w-8 h-8 text-white" strokeWidth={2} />
                 </div>
 
@@ -99,14 +92,7 @@ export default function CogreaFeaturesSection() {
                 </p>
 
                 {/* Decorative element */}
-                <div className="mt-6 h-1 w-12 rounded-full group-hover:w-16 transition-all duration-300"
-                     style={{
-                       backgroundColor: 'hsl(215, 70%, 50%)',
-                       transition: 'background-color 0.3s ease, width 0.3s ease'
-                     }}
-                     onMouseEnter={(e) => e.currentTarget.style.backgroundColor = 'hsl(25, 90%, 55%)'}
-                     onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'hsl(215, 70%, 50%)'}
-                ></div>
+                <div className="decorative-bar mt-6 h-1 w-12 rounded-full group-hover:w-16 transition-all duration-300"></div>
               </div>
             );
           })}
@@ -131,6 +117,24 @@ export default function CogreaFeaturesSection() {
             opacity: 1;
             transform: translateY(0);
           }
+        }
+        
+        .icon-container {
+          background-color: hsl(215, 70%, 50%);
+          transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        .group:hover .icon-container {
+          background-color: hsl(25, 90%, 55%);
+        }
+        
+        .decorative-bar {
+          background-color: hsl(215, 70%, 50%);
+          transition: background-color 0.3s ease, width 0.3s ease;
+        }
+        
+        .group:hover .decorative-bar {
+          background-color: hsl(25, 90%, 55%);
         }
       `}</style>
     </section>

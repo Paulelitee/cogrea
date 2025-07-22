@@ -5,6 +5,7 @@ import { X, Search, ChevronDown } from 'lucide-react';
 import Image from 'next/image';
 import NavBar from './components/NavBar';
 import WhyChooseSection from './components/WhyChooseUs';
+import MissionVisionSection from './components/Mission';
 
 const countries = [
   { name: 'Afghanistan', flag: '🇦🇫' },
@@ -289,22 +290,7 @@ export default function Home() {
         </section>
 
         {/* Mission & Vision */}
-        <section className="py-16 lg:py-24">
-          <div className="container mx-auto px-6 lg:px-20 grid lg:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
-              <p className="text-gray-600 text-lg">
-                Empower individuals and businesses with AI-powered career guidance, education, and mentorship. Cogrea fosters lifelong learning to help people grow, adapt, and succeed in today's workforce.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-2xl font-semibold mb-4">Our Vision</h3>
-              <p className="text-gray-600 text-lg">
-                To build a more equitable and sustainable global economy by unlocking human potential at scale through intelligent career pathways and inclusive learning ecosystems.
-              </p>
-            </div>
-          </div>
-        </section>
+        <MissionVisionSection />
 
         {/* Unique Selling Points */}
         <WhyChooseSection />
