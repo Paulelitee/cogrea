@@ -321,7 +321,7 @@ export default function Home() {
             <div className="flex flex-col gap-16">
               <div className='flex flex-col gap-4 w-80'>
                 <div>
-                  <Image src="/images/logo dark.png" alt="Cogrea Logo" width={100} height={50} />
+                  <Image src="/images/logodark.png" alt="Cogrea Logo" width={100} height={50} />
                 </div>
                 <p className="text-gray-500">
                   Redefining growth through AI-driven career tools and personalized support.

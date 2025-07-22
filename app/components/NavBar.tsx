@@ -10,7 +10,7 @@ export default function NavBar() {
         <nav className="w-full bg-white shadow-xm sticky top-0 z-50">
             <div className="container mx-auto px-6 lg:px-20">
                 <div className="flex justify-between items-center h-16 lg:h-20">
-                    <Image src = '/images/logo light.png' alt = "Cogrea Logo" width = {110} height = {50}  />
+                    <Image src = '/images/logolight.png' alt = "Cogrea Logo" width = {110} height = {50}  />
                     <div className="flex-shrink-0">
                     </div>
 
