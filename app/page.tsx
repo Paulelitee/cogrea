@@ -302,7 +302,7 @@ export default function Home() {
               Ready to Redefine Your Growth?
             </h2>
             <p className="text-lg max-w-2xl mx-auto mb-8">
-              Join thousands already navigating their careers with Cogrea's intelligent AI assistant and personalized learning experiences.
+              Join thousands already navigating their careers with Cogrea's smart system and and personalized learning experiences.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
               <button 
