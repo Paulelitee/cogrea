@@ -23,7 +23,7 @@ export default function NavBar() {
                                 </a>
                             </li>
                             <li>
-                                <a href="#" className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">
+                                <a href="/investors" className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium">
                                     Investors
                                 </a>
                             </li>
