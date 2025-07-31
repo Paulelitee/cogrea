@@ -284,7 +284,7 @@ export default function Home() {
           <div className="container mx-auto px-6 lg:px-20 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">About Cogrea</h2>
             <p className="text-gray-700 max-w-3xl mx-auto text-lg">
-              Cogrea is a Career Tech, EdTech and HR Tech company building an Smart Career Navigation System. Our AI-driven platform combines expert guidance, predictive analytics, and multilingual support to empower users and organizations. We redefine growth with intentional learning, career tracking, and personalized development journeys.
+              Cogrea is a Career Tech, EdTech and HR Tech company building a Smart Career Navigation System. Our AI-driven platform combines expert guidance, predictive analytics, and multilingual support to empower users and organizations. We redefine growth with intentional learning, career tracking, and personalized development journeys.
             </p>
           </div>
         </section>
