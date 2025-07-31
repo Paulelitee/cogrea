@@ -256,11 +256,11 @@ export default function Home() {
         {/* Hero Section */}
         <section className="flex flex-col lg:flex-row min-h-screen hero-wrapper">
           <div className="hero-section-left px-4 lg:px-40 py-8 lg:py-16 flex-1 flex flex-col justify-center gap-8">
-            <div className="flex flex-col gap-4 w-full hero-cta-wrapper px-4">
+            <div className="flex flex-col lg:gap-4 gap-2 w-full hero-cta-wrapper px-4">
               <p className="text-blue-600 font-medium text-sm lg:text-base">
                 Career powered by human intelligence, AI, and ER
               </p>
-              <h1 className="text-2xl lg:text-4xl xl:text-5xl font-semibold leading-tight">
+              <h1 className="text-md lg:text-4xl xl:text-5xl font-bold leading-tight">
                 Career Navigation System for Individuals and Organizations
               </h1>
               <p className="text-gray-600 text-md">
