@@ -269,7 +269,7 @@ export default function Home() {
             </div>
             <button 
               onClick={() => setIsModalOpen(true)}
-              className="bg-blue-900 w-48 hover:bg-blue-600 text-white px-6 py-3 rounded-xl mt-2 sm:mt-0 sm:ml-2 transition-colors"
+              className="bg-blue-900 text-centerw-48 hover:bg-blue-600 text-white px-6 py-3 rounded-xl mt-2 sm:mt-0 sm:ml-2 transition-colors"
             >
               Join Waitlist
             </button>
@@ -283,7 +283,7 @@ export default function Home() {
         <section className="py-16 lg:py-24 bg-gray-50">
           <div className="container mx-auto px-6 lg:px-20 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">About Cogrea</h2>
-            <p className="text-gray-700 max-w-3xl mx-auto text-lg">
+            <p className="text-gray-700 font-boldmax-w-3xl mx-auto text-lg">
               Cogrea is a Career Tech, EdTech and HR Tech company building a Smart Career Navigation System. Our AI-driven platform combines expert guidance, predictive analytics, and multilingual support to empower users and organizations. We redefine growth with intentional learning, career tracking, and personalized development journeys.
             </p>
           </div>
