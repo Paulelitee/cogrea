@@ -260,7 +260,7 @@ export default function Home() {
               <p className="text-blue-600 font-medium text-sm lg:text-base">
                 Career powered by human intelligence, AI, and ER
               </p>
-              <h1 className="text-md lg:text-4xl xl:text-5xl font-bold leading-tight">
+              <h1 className="text-sm font-bold leading-tight">
                 Career Navigation System for Individuals and Organizations
               </h1>
               <p className="text-gray-600 text-md">

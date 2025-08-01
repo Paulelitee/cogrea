@@ -77,7 +77,7 @@ export default function NavBar() {
                                 </li>
                                 <li>
                                     <a 
-                                        href="#" 
+                                        href="/investors" 
                                         className="block text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                                         onClick={() => setIsMenuOpen(false)}
                                     >
