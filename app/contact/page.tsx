@@ -25,7 +25,9 @@ const ContactPage = () => {
     'Investment Inquiries'
   ];
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -33,16 +35,16 @@ const ContactPage = () => {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 2000));
-    
+
     setIsSubmitting(false);
     setIsSubmitted(true);
-    
+
     // Reset form after success
     setTimeout(() => {
       setIsSubmitted(false);
@@ -82,7 +84,7 @@ const ContactPage = () => {
               <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
                 Send us a Message
               </h2>
-              
+
               {isSubmitted ? (
                 <div className="text-center py-12">
                   <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
@@ -90,7 +92,7 @@ const ContactPage = () => {
                   <p className="text-gray-600">We'll get back to you within 24 hours.</p>
                 </div>
               ) : (
-                <div className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6">
                   {/* Name and Email Row */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
@@ -196,8 +198,7 @@ const ContactPage = () => {
 
                   {/* Submit Button */}
                   <button
-                    type="button"
-                    onClick={handleSubmit}
+                    type="submit"
                     disabled={!isFormValid || isSubmitting}
                     className="w-full bg-blue-900 hover:bg-blue-800 disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-medium py-3 px-6 rounded-xl transition-colors flex items-center justify-center gap-2"
                   >
@@ -213,7 +214,7 @@ const ContactPage = () => {
                       </>
                     )}
                   </button>
-                </div>
+                </form>
               )}
             </div>
 
