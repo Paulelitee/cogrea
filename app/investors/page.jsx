@@ -169,23 +169,17 @@ export default function InvestorsPage() {
       highlights: ["Former President of international youth organisation (2019–2022)", "Led initiatives across 14+ countries", "Engaged with world leaders including President of Egypt"]
     },
     {
+      name: "Cynthia Owolabi",
+      role: "Co-Founder and CTO",
+      background: "Ex-Microsoft Engineering Specialist",
+      highlights: ["Cloud Platforms & DevOps", "AI & Machine Learning", "Electrical Electronics Engineering"]
+    },
+    {
       name: "Brian Hughes",
       role: "President",
       background: "Executive Leadership & HR Consulting",
       highlights: ["Bachelor of Commerce", "Certified Human Resources Leader", "Strategic Planning & Leadership Development"]
     },
-    {
-      name: "Hassan Afaq",
-      role: "Chief Product Officer",
-      background: "Product Development & Technology",
-      highlights: ["MSC IT & Mathematics/Computer Science", "Senior Technology Consultant", "Business Operations Manager"]
-    },
-    {
-      name: "Cynthia Owolabi",
-      role: "Principal Software Engineer",
-      background: "Ex-Microsoft Engineering Specialist",
-      highlights: ["Cloud Platforms & DevOps", "AI & Machine Learning", "Electrical Electronics Engineering"]
-    }
   ];
 
   return (
