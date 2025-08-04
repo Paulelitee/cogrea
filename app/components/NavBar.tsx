@@ -68,7 +68,7 @@ export default function NavBar() {
                             <ul className="space-y-4">
                                 <li>
                                     <a 
-                                        href="#" 
+                                        href="/" 
                                         className="block text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                                         onClick={() => setIsMenuOpen(false)}
                                     >
@@ -86,7 +86,16 @@ export default function NavBar() {
                                 </li>
                                 <li>
                                     <a 
-                                        href="#" 
+                                        href="/team" 
+                                        className="block text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
+                                        onClick={() => setIsMenuOpen(false)}
+                                    >
+                                        Team
+                                    </a>
+                                </li>
+                                <li>
+                                    <a 
+                                        href="/about" 
                                         className="block text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                                         onClick={() => setIsMenuOpen(false)}
                                     >
@@ -95,7 +104,7 @@ export default function NavBar() {
                                 </li>
                                 <li>
                                     <a 
-                                        href="#" 
+                                        href="/contact" 
                                         className="block text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
                                         onClick={() => setIsMenuOpen(false)}
                                     >
