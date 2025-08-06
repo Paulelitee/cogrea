@@ -25,17 +25,10 @@ const AboutUsPage = () => {
       education: "Bachelor of Commerce, Certified Human Resources Leader",
       highlights: ["Executive leadership", "Strategic planning", "HR consulting"]
     },
-    {
-      name: "Hassan Afaq",
-      role: "Chief Product Officer",
-      image: "/api/placeholder/200/200",
-      bio: "Product development specialist with expertise in technology consulting and business operations management.",
-      education: "MSC IT, Bachelor's in Mathematics & Computer Science",
-      highlights: ["Product development", "Technology consulting", "Business operations"]
-    },
+    
     {
       name: "Cynthia Owolabi",
-      role: "Principal Software Engineer / Tech Lead",
+      role: "Co-Founder & CTO",
       image: "/api/placeholder/200/200",
       bio: "Ex-Microsoft engineering specialist with expertise in cloud platforms, DevOps, infrastructure, and AI/ML.",
       education: "Bachelor of Engineering in Electrical Electronics",
