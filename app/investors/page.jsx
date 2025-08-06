@@ -408,11 +408,11 @@ export default function InvestorsPage() {
           <div className="max-w-3xl mx-auto space-y-4">
             <FAQ 
               question="What's the current funding stage?"
-              answer="We are currently raising our Series A round to accelerate product development, expand our AI capabilities, and scale our go-to-market strategy across key global markets."
+              answer="We are currently Pre-Product/Pre-Seed round to help us accelerate development, deployment and market positioning."
             />
             <FAQ 
               question="What is the revenue model?"
-              answer="We operate on a subscription-based model with B2B (enterprise licenses), B2C (individual subscriptions), and B2B2C (platform partnerships) revenue streams. Additional revenue from premium features and XR training modules."
+              answer="B2B (enterprise subscription) additional revennue from courses, premium feautures and ER training modules."
             />
             <FAQ 
               question="How large is the addressable market?"
@@ -420,7 +420,7 @@ export default function InvestorsPage() {
             />
             <FAQ 
               question="What's your competitive advantage?"
-              answer="Our proprietary AI career pathway engine, multilingual platform, XR integration, and personalized growth tracking create a unique value proposition. Our team's global experience and proven leadership provide execution advantages."
+              answer="AI-Driven personalized learning and skill gap analysis, career pathway engine, XR integration automated career accountability and AI-Powered talent matching algorithm. Our tean of global expertise, experience and prive  leadership provide execution advantages."
             />
             <FAQ 
               question="What are the key metrics and traction?"

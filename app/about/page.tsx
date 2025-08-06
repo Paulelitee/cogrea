@@ -121,7 +121,7 @@ const AboutUsPage = () => {
                 Revolutionizing Career Development
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Cogrea is a Career Tech and EdTech company building an intelligent career navigation system for individuals and organizations. We provide tailored career guidance, emerging skill pathways, adaptive tools, and personalized growth plans, all designed to help people thrive in a rapidly evolving world.
+                Cogrea is a Career Tech, ED Tech, and HR Tech company building an intelligent career navigation system for individuals and organizations. We provide tailored career guidance, emerging skill pathways, adaptive tools, and personalized growth plans, all designed to help people thrive in a rapidly evolving world.
               </p>
               <p className="text-lg text-gray-700 mb-8">
                 In a time where human capital development is often fragmented and generic, Cogrea brings clarity, structure and direction through our proprietary AI expert assistant, career pathway engine, predictive skill gap analyzer, and multilingual platform.
